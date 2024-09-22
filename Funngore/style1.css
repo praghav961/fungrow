@@ -1,0 +1,167 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.tittle{
+    height: 40px;
+    background-color: rgb(79, 185, 79);
+    align-content: center;
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+.main{
+    background-image: url("desktop-wallpaper-black-background-plain-black-powerpoint-dark-presentation.jpg");
+}
+#header{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+#middle a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: large;
+}
+#middle{
+    margin-top: 45px;
+    word-spacing: 10px;
+}
+#middle :hover{
+    border-bottom: 4px solid;
+    transition: 0.6s;
+}
+#button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    word-spacing: 4px;
+    font-size: larger;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid green;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+}
+#button{
+    font-size: larger;
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#button a:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.6s;
+}
+#m2{
+    color: aliceblue;
+    height: 70px;
+    margin-top: 10px;
+}
+#h1{
+    text-align: center;
+}
+#h2{
+    margin-top: 10px;
+}
+#m3{
+    color: aliceblue;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#s1{
+    height: 250px;
+    background-color: peachpuff ;
+    width: 250px;
+    margin-left: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+#w1{
+    position: absolute; 
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-15%);
+    font-size: larger;
+}
+#s2{
+    height: 250px;
+    background-color: aqua;
+    width: 250px;
+    margin-left: 50px;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#w2 {
+    position: absolute;
+    width: inherit;
+    height: 50%;
+    transform: translateY(25%);
+    font-size: larger;
+}
+#s3{
+    height: 250px;
+    width: 250px;
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+}
+#w3 {
+    position: absolute;
+    width: inherit;
+    transform: translateY(180%);
+    font-size: larger;
+}
+#m3{
+    padding-bottom: 6%;
+}
+#s1 :hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.6s;
+}
+#s3 :hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.6s;
+}
+.footer{
+    height: 500px;
+    background-color: #121e2c;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+#x1{
+    font-size: 25px;
+}
+#x2{
+    padding-top: 40px;
+}
+.x3{
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+}
